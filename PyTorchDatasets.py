@@ -245,7 +245,7 @@ class FFHQ(VisionDataset):
     def random_batch(self,index, fixed=False):
 
         folder = str(int(np.floor(index/1000)*1000)).zfill(5)
-        file = str(index).zfill(5) + ".png"
+        file = str(index).zfill(5) + ".jpg"
         image_path = os.path.join(self.root, folder , file )
         img = Image.open( image_path).convert('RGB')
         if fixed:
