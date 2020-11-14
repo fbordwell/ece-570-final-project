@@ -1,4 +1,3 @@
-cd ..
 python train.py \
 --dataset FFHQ --parallel --shuffle   \
 --which_best FID \
