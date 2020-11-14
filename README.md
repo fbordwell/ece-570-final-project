@@ -10,7 +10,7 @@ python3 train.py --dataset FFHQ --parallel --shuffle --which_best FID --batch_si
 
 ### 2. Files
 
-The following files are from the [U-Net GAN]([GitHub - boschresearch/unetgan: Implementation of the paper &quot;A U-Net Based Discriminator for Generative Adversarial Networks&quot; (CVPR 2020)](https://github.com/boschresearch/unetgan)) repository and are unmodified:
+The following files are from the [U-Net GAN](https://github.com/boschresearch/unetgan) repository and are unmodified:
 
 ```
 BigGAN.py
@@ -44,4 +44,4 @@ fid_stats.py
 
 ### 3. Datasets
 
-I used the FFHQ dataset for testing. Images should be resized to 256x256, so it's simpler to download the scaled dataset [here]([Deepfake Detection Challenge | Kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/discussion/122786)). Files should be partitioned into folders in the method shown [here]([images1024x1024 - Google Drive](https://drive.google.com/drive/folders/1tZUcXDBeOibC6jcMCtgRRz67pzrAHeHL)). `move.sh` can be used for this.
+I used the FFHQ dataset for testing. Images should be resized to 256x256, so it's simpler to download the scaled dataset [here](https://www.kaggle.com/c/deepfake-detection-challenge/discussion/122786). Files should be partitioned into folders in the method shown [here](https://drive.google.com/drive/folders/1tZUcXDBeOibC6jcMCtgRRz67pzrAHeHL). `move.sh` can be used for this.
